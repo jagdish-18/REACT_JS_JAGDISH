@@ -1,0 +1,179 @@
+.body{
+    margin: 0;
+    
+}
+ /* .rgb{
+    height: 300px;
+    width: 300px;
+    background-color:pink;
+    border: 10px solid green;
+
+}  */
+/* .rgba{
+    height: 300px;
+    width: 300px;
+    background-color:yellow;
+    border: 10px solid red;
+}
+.hex{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    
+} */
+
+  /* .box{
+    height: 200px;
+    width: 200px; 
+    background-image: url('../image/asset27.jpeg'),
+    url('../image/asset\ 55.jpeg');
+    background-blend-mode:darken;
+    background-repeat:no-repeat ;
+    background-size: cover;
+
+  
+}  */
+/* .box{
+    height: 300px;
+    width: 300px;
+    border: 30px solid blue;
+    padding: 30px;
+    background-color: brown;
+    background-image: url('../image/asset27.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:left;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin:content t-box;
+} */
+
+/* .box{
+    height: 800px;
+    width: 1000px;
+    background-image: url('../image/asset\ 55.jpeg');
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+} */
+ /* .linear-gradient-1{
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(to right,red,blue,black); 
+} */
+/* .diagonal-linear-gradient{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    background:linear-gradient(to top,red,
+    orange,blue,purple,indigo,violet,yellow ) ;
+} */
+/* .radial-gradient-simple{
+    height: 800px;
+    width: 500px;
+    background:radial-gradient(circle farthest-corner at
+     right,red,blue) ;
+} */
+ /* .bullseye{
+    height: 100vh;
+    width: 100%;
+    background: repeating-linear-gradient(red,red 5%,
+    white,white 25%); 
+}  */
+/* .conic{
+    height: 350px;
+    width: 350px;
+    background-color: chocolate;
+    background-image: conic-gradient(red,rgb(0.255,30)
+    rgb(128,0,20));
+
+} */
+/* .worning{
+    height: 500px;
+    width: 500px;
+    background: repeating-linear-gradient(-30deg, yellow, yellow 10%,
+    black 10%, black 20% );
+    background-image: linear-gradient(to right,#b465da,#ee45da,#fcfcfc,#eee)
+} */
+
+/* css border */
+
+
+/* .solid{
+    width: 100px;
+    height:400px;
+    background-color: yellow;
+    border: 10px solid green;
+}
+
+.dotted{
+    width: 100px;
+    height:450px;
+    background-color: yellow;
+    border: 10px dotted green;
+}
+.dashed{
+    width: 100px;
+    height:500px;
+    background-color: yellow;
+    border: 10px dashed green;
+} 
+.double{
+    width: 100px;
+    height:550px;
+    background-color: yellow;
+    border: 10px double green;
+} 
+.hidden{
+    width: 100px;
+    height:600px;
+    background-color: yellow;
+    border: 10px hidden green;
+} 
+.none{
+    width: 100px;
+    height:500px;
+    background-color: yellow;
+    border: 10px none green;
+}
+.ridge{
+    width: 100px;
+    height:450px;
+    background-color: yellow;
+    border: 10px ridge green;
+} 
+.inset{
+    width: 100px;
+    height:400px;
+    background-color: yellow;
+    border: 10px inset green;
+} 
+.dotted{
+    width: 100px;
+    height:450px;
+    background-color: yellow;
+    border: 10px dotted green;
+}
+.outset{
+    width: 100px;
+    height:350px;
+    background-color: yellow;
+    border: 10px outset green;
+}
+
+.groove{
+    width: 100px;
+    height:300px;
+    background-color: yellow;
+    border: 10px groove green;
+}     */
+
+
+
+
+
+
+
+
+
+
+
