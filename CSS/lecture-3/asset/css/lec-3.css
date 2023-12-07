@@ -167,8 +167,75 @@
     border: 10px groove green;
 }     */
 
+/* .border{
+      height: 300px;
+      width: 300px;
+      border: 20px solid green;
+      border-top: 30px solid red;
+      border-right: 35px dashed yellow;
+      border-left: 45px dotted black ;
+      border-top-style: dotted ;
+      border-bottom-color: orange;
+} */
 
+/* border-redius */
+ /* .maindiv{
+    position: relative;
+}
+.border-redius{
+    height: 500px;
+    width: 500px;
+    border: 10px solid green;
+    border-radius: 20px;
+    border-radius: 20px 40px;
+    border-radius: 20px 40px 60px;
+    border-radius: 20px 40px 60px 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.border-redius img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    object-position: top;
+    position:absolute ;
 
+}
+.circle{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 10px solid blue;
+}
+.circle img{
+    height: 200px;
+    width: 200px; 
+} */
+
+/* .outline{
+    height: 200px;
+    width: 200px;
+    border: 10px solid green;
+    margin: 200px;
+    outline: 10px dotted orange;
+    outline-offset: 10px;
+} */
+.opacity{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255,0,0,0.8); 
+
+}
 
 
 
