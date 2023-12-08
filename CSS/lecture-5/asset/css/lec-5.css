@@ -1,0 +1,122 @@
+/* .demo-div{
+    height: auto; 
+    min-height: 300px; 
+    max-height: 600px; 
+    width: 600px; 
+    max-width: 600px;
+    min-width: 350px; 
+    background-color: orange;
+
+} */
+/* .img-fluid{
+    max-width: 600px;
+    height: auto;
+    border: 10px solid black;
+} */
+
+/* listing tag */
+
+/* --order list-- */
+
+/* ol{
+    list-style-type: decimal;
+    list-style-type: circle;
+    list-style-type: square; 
+    list-style-type: lower-alpha;
+    list-style-type: upper-latin;
+    list-style-type: upper-roman;
+    list-style-type: lower-greek;
+    list-style-type: georgian;
+    list-style-type: disc;
+     list-style-position: inside; 
+    list-style-position: outside;
+    list-style-position: unset;  
+    list-style-image:url('../image/mountain.jpg') ;
+
+} */
+
+/* --Unorder list-- */
+
+/* ul{
+    list-style-type: disc;
+    list-style-type: circle;
+    list-style-type: disc;
+    list-style-type: georgian;
+    list-style-type: lower-roman;
+    list-style-type: lower-latin;
+    list-style-type: square;
+    list-style-type: lower-greek;
+    list-style-type: decimal;
+
+} */
+
+/* --Css box-shadow-- */
+
+/* .maindiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+.box-shadow{
+    height:400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius:20px ;
+    box-shadow: 5px 5px 30px gray;
+    box-shadow:inset 0px 0px 10px gray,inset 0px 0px 30px green,
+    inset 0px 0px 40px red, inset 0px 0px 50px blue;
+
+
+} */
+
+/* --Accent color-- */
+
+/* input{
+    accent-color: red;
+}
+input[type="range"]{
+    accent-color: black;
+}
+input[type="radio"]{
+    accent-color: green;
+} */
+
+/* --form-- */
+
+::placeholder{
+    color:yellow;
+}
+input:focus{
+    background-color: green;
+    outline: none;
+    border: none;
+}
+input:hover{
+    background-color: orange;
+}
+input:valid{
+    border: 2px solid blue ;
+}
+input:invalid.massage{
+    display: block;
+}
+
+    /* :read-only
+    :read-write
+    :root
+    :lang() */
+
+   :root{
+    color: yellow;
+    color: green;
+   }
+
+.box{
+    height: 100px;
+    width: 200px;
+    background-color:var(--color);
+}   
+
+
