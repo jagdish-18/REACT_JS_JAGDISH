@@ -1,0 +1,65 @@
+
+/* *{
+    box-sizing: content-box;
+}
+body{
+    margin: 0;
+} */
+/* .font-family{
+    font-family : 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 100px;
+    font-style: normal;
+    font-variant: small-caps;
+    line-height: 100px;
+} */
+  /* .maindiv{
+    text-align: justify;
+}
+.text{
+    color: green;
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 25px;  
+    word-spacing: 20px;
+    direction: ltr;
+    unicode-bidi: bidi-override;
+    text-decoration: line-through green dotted;
+}
+span{
+
+ text-decoration: line-through black dotted;
+}   
+a{
+    text-decoration: none;
+}   */
+
+/* .shadow{
+    text-shadow: 5px 5px 2px blue;
+} */
+
+/* h1{
+    font-size: 100px;
+    text-decoration:underline ;
+}
+img{
+    vertical-align:text-bottom;
+}  */
+
+/* .white-space{
+    white-space: pre;
+}  */
+
+
+h1{
+    visibility: collapse;
+    display: none;
+}
+.pera{
+    visibility: collapse;
+
+}
+pre{
+    color: green;
+    border: 10px solid red;
+}
