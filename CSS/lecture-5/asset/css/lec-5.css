@@ -85,7 +85,7 @@ input[type="radio"]{
 
 /* --form-- */
 
-::placeholder{
+/* ::placeholder{
     color:yellow;
 }
 input:focus{
@@ -101,22 +101,29 @@ input:valid{
 }
 input:invalid.massage{
     display: block;
-}
+} */
 
     /* :read-only
     :read-write
     :root
     :lang() */
 
-   :root{
+    /* :root{
     color: yellow;
     color: green;
-   }
+   } */
+ul{
+    list-style-type: disc;
+}
+ul li::marker{
+    color :red;
+}
 
-.box{
+
+/* .box{
     height: 100px;
     width: 200px;
     background-color:var(--color);
-}   
+}     */
 
 

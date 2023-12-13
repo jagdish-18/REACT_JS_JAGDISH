@@ -59,41 +59,41 @@
     height: 500px;
     width: 500px;
     background: linear-gradient(to right,red,blue,black); 
-} */
-/* .diagonal-linear-gradient{
+}
+.diagonal-linear-gradient{
     height: 400px;
     width: 400px;
     border-radius: 100%;
     background:linear-gradient(to top,red,
     orange,blue,purple,indigo,violet,yellow ) ;
-} */
-/* .radial-gradient-simple{
+}
+ .radial-gradient-simple{
     height: 800px;
     width: 500px;
     background:radial-gradient(circle farthest-corner at
      right,red,blue) ;
-} */
- /* .bullseye{
+} 
+  .bullseye{
     height: 100vh;
     width: 100%;
     background: repeating-linear-gradient(red,red 5%,
     white,white 25%); 
-}  */
-/* .conic{
+}  
+ .conic{
     height: 350px;
     width: 350px;
     background-color: chocolate;
     background-image: conic-gradient(red,rgb(0.255,30)
     rgb(128,0,20));
 
-} */
-/* .worning{
+} 
+ .worning{
     height: 500px;
     width: 500px;
     background: repeating-linear-gradient(-30deg, yellow, yellow 10%,
     black 10%, black 20% );
     background-image: linear-gradient(to right,#b465da,#ee45da,#fcfcfc,#eee)
-} */
+}  */
 
 /* css border */
 
@@ -230,12 +230,63 @@
     outline: 10px dotted orange;
     outline-offset: 10px;
 } */
-.opacity{
+/* .opacity{
     height: 100vh;
     width: 100%;
     background-color: rgb(255,0,0,0.8); 
 
-}
+} */
+
+ /* .linear-gradient-1{
+    height: 500px;
+    width:100%;
+    background: linear-gradient(to right, red, blue , yellow);
+}   */
+
+ /* .diagonal-linear-gradient {
+    height: 500px;
+    width:100%;
+    background: linear-gradient(to bottom   , red 70% , yellow 30%);
+}  */
+
+ /* .linear-gradient-rainbow {
+    height: 500px;
+    width:500px;
+    border-radius: 100%;
+    background: linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet)
+}  */
+
+  /* .radial-gradient-simple {
+    height: 800px;
+    width:100%;
+    background: radial-gradient( red, orange, yellow, green, blue, indigo, violet);
+}   */
+
+  /* .radial-gradient {
+    height: 100vh;
+    width:100%;
+    background: radial-gradient(circle farthest-corner at right, red, blue);
+}   */
+
+ /* .bullseye {
+    height: 100vh;
+    width:100%;
+    background: repeating-radial-gradient(red, red 5%, white , white 20%);
+}  */
+
+ /* .warning {
+    height: 100vh;
+    width:100%;
+    background: repeating-linear-gradient(-30deg, yellow, yellow 10%, black 10%, black 20% );
+} */
+  
+     /* .conic{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    background-image: conic-gradient(red, rgb(0, 255, 30), rgb(128, 0, 102));
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}   */
 
 
 
