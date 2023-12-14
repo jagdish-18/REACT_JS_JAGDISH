@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+}
+/* body{
+    background-color: yellow;
+} */
+
+/* css resetting properties value */
+
+  /* .mainbox{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+} 
+
+ .box-child{
+     height: 100px; 
+    background-color:purple;
+} 
+ .box{
+    background-color: red;
+} 
+ p{
+    color:green 
+} 
+ .mainbox{
+    height: unset;
+} 
+ .box-child{
+    background-color: unset;
+} 
+ .box-child{
+    background-color: brown;
+}     */
+
+/* Universal selector */
+
+  /* *{
+    height: 200px; 
+    background-color: green;
+    border: 2px solid black;
+ }  */
+ 
+ /* simple tag selector*/
+  
+
+ /* Multipal Class Selector */
+
+ /* .para-1{
+    background-color: green;
+    color: blue;
+    text-decoration: underline;
+ }
+ .para-2{
+    letter-spacing: 10px;
+ }
+ .para-3{
+    background-color: yellow;
+    color: red;
+    text-decoration: underline;
+ } */
+
+ /*css id selector*/
+
+ /* #para-1{
+    background-color: green;
+    color: red;
+    text-decoration: underline
+ }
+ #para-3{
+   letter-spacing: 10px;
+ }
+ #para-2{
+   background-color: blue;
+   color: gold;
+   text-decoration:underline ;
+ } */
+
+ /* Examples Combinator selector */
+
+/* Descendent selector  (space)*/
+
+/* .box{
+     height: 200px;
+     width: 200px;
+     background-color: yellow;
+}
+.mainbox .box{
+   height: 350px;
+   width: 350px;
+   background-color: green;
+
+} */
+
+/* child selector */
+
+/* .mainbox-1 > .box-1{
+   height: 250px;
+   width: 250px;
+   background-color: green;
+   
+} */
+
+/* adjuacent sibling selector*/
+
+/* .mainbox-1 + h1+p+p{
+   background-color: red;
+   text-decoration: underline;
+} */
+
+/* --Generel sibling selectoe-- */
+
+/* .mainbox-1 ~ p{
+   background-color: yellow;
+} */
+
+/* Link Selector */
+
+/* 
+    link
+    active
+    hover
+    visited
+*/
+
+ a:link{
+   background-color: green;
+
+} 
+a:active{
+   background-color: pink;
+}
+ a:hover{
+   background-color: yellow;
+} 
+ a:visited{
+   background-color: black;
+} 
+
+
+
+
+
+
+
+
+
