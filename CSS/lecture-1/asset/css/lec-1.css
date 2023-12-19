@@ -27,25 +27,28 @@
 
         /* Cascade    */
 
-/* p{
+ /* p{
     background-color: blue;
     border: 10px solid green;
 
-} */
+}  */
 
       /* Specificity */
 
- /* .specificity{
+  .specificity{
     background-color: orange;
     height: 100px;
     width: 200px;
+ }
+ div{
+   display: flex;
  } 
- .spe-1 {
+  .spe-1 {
     background-color:green;
     height: 100px;
     width: 100px;
- }  
-     */
+ }   
+     
      /* --inheritance-- */
 
   /* .parent{
@@ -83,10 +86,10 @@
 
  /* --!important rule-- */
 
- .pera-1{
+ /* .pera-1{
    background-color: red !important;
  }
  .pera-2{
    background-color: yellow !important;
    border: 5px solid black;
- }
+ } */
