@@ -1,0 +1,321 @@
+/* 
+
+ul{
+    display: flex;
+    text-decoration: none;
+    background-color: purple;
+    position: fixed;
+    list-style-type: none;
+    padding: 30px 15px ;
+    bottom: 300px ;
+}
+li a{
+    padding: 20px 115px ;
+    text-decoration: none;
+    color: white;
+    font-size:50px;
+}
+
+section{
+    margin-bottom: 100px;
+}
+
+.box-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.section-text-1 h1{
+    font-size: 70px;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.section-text-1 p{
+    font-size: 22px;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.section-text-1 a{
+    background-color: blue;
+    padding: 20px 40px;
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.section-img-1{
+    width: 600px;
+    height: auto;
+}
+
+.section-img-1 img{
+    width: inherit;
+    height: auto;
+}
+
+.section-text-2 h1{
+    font-size: 70px;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.section-text-2 p{
+    font-size: 22px;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.section-text-2 a{
+    background-color: blue;
+    padding: 20px 40px;
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.section-img-2{
+    width: 600px;
+    height: auto;
+}
+
+.section-img-2 img{
+    width: inherit;
+    height: auto;
+}  */
+
+ /* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+
+.maindiv{
+    height: 600px;
+    width: 1000px;
+    background-color: gray;
+    position: relative; 
+
+}
+.box-1{
+    height: 130px;
+    width: 130px;
+    background-color: red;
+    position: absolute;
+}
+.box-2{ 
+    height: 120px;
+    width: 120px;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin:auto;
+} 
+.box-3{ 
+    height: 110px;
+    width: 110px;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    margin: auto;
+} 
+.box-4{ 
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.box-5{ 
+    height: 90px;
+    width: 90px;
+    background-color: purple;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+}
+.box-6{ 
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+} 
+.box-7{ 
+    height: 70px;
+    width: 70px;
+    background-color:blue;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+}
+.box-8{ 
+    height: 60px;
+    width: 60px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+}.box-9{ 
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}  */
+
+/* .z-index-1{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    position: absolute;
+    z-index: -3; 
+}
+.z-index-2{
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    position: absolute;
+    z-index: -4; 
+}
+.z-index-3{
+    height: 400px;
+    width: 600px;
+    background-color: yellow;
+    position: absolute; 
+    z-index: -5;
+} */
+
+/* button{
+    border: 0;
+    background-color: blue;
+    padding: 20px 40px;
+    margin: 100px;
+    position: relative;
+    border-radius: 10px;
+
+}
+button span {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: pink;
+    border-radius: 100%;
+    border: 2px solid white;
+    top: -10px;
+    right: -5px;
+} */
+
+/* float properties */
+
+/* .float{
+    background-color: gray;
+    height: 500px;
+    width: 500px;
+
+}
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+    clear: none;
+} */
+
+/* ------clear properties--------------- */
+
+
+/* overflow properties */
+
+/* .overflow{
+    height: 200px;
+    width: 250px;
+    background-color: gray;
+    overflow-x: scroll;
+} */
+
+/* textarea{
+     resize: horizontal; 
+     resize: vertical; 
+    resize: both;
+} */
+
+
+/* css cursor properties */
+
+/* .alias {cursor: alias;}
+.all-scroll {cursor: all-scroll;}
+.auto {cursor: auto;}
+.cell {cursor: cell;}
+.context-menu {cursor: context-menu;}
+.col-resize {cursor: col-resize;}
+.copy {cursor: copy;}
+.crosshair {cursor: crosshair;}
+.default {cursor: default;}
+.e-resize {cursor: e-resize;}
+.ew-resize {cursor: ew-resize;}
+.grab {cursor: -webkit-grab; cursor: grab;}
+.grabbing {cursor: -webkit-grabbing; cursor: grabbing;}
+.help {cursor: help;}
+.move {cursor: move;}
+.n-resize {cursor: n-resize;}
+.ne-resize {cursor: ne-resize;}
+.nesw-resize {cursor: nesw-resize;}
+.ns-resize {cursor: ns-resize;}
+.nw-resize {cursor: nw-resize;}
+.nwse-resize {cursor: nwse-resize;}
+.no-drop {cursor: no-drop;}
+.none {cursor: none;}
+.not-allowed {cursor: not-allowed;}
+.pointer {cursor: pointer;}
+.progress {cursor: progress;}
+.row-resize {cursor: row-resize;}
+.s-resize {cursor: s-resize;}
+.se-resize {cursor: se-resize;}
+.sw-resize {cursor: sw-resize;}
+.text {cursor: text;}
+.url {cursor: url(myBall.cur),auto;}
+.w-resize {cursor: w-resize;}
+.wait {cursor: wait;}
+.zoom-in {cursor: zoom-in;}
+.zoom-out {cursor: zoom-out;}  */
+
+/* css object-fit properties */
+
+/*  fill / contain / cover / scale-down / none */
+
+.img-div{
+    height: 300px;
+    width: 300px;
+    border: 2px solid blue;
+    overflow:hidden;
+}
+img{
+   height: inherit;
+   width: inherit;
+   object-fit: cover;
+   object-position: center;
+}

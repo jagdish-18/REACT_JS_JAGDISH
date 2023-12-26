@@ -9,7 +9,7 @@ body{
     font-weight: bold;
     text-align: center;
 }
-/* .box-1 h2{
+ .box-1 h2{
     text-align: center;
     font-size: 40px;
     background-color: purple;
@@ -30,7 +30,7 @@ body{
      font-size: 25px;
      margin: 0;
      
-} */
+} 
 
 /* --------TASK-2------- */
 
@@ -71,7 +71,7 @@ body{
 
 /* -------TASK-3------ */
 
-.maindiv{
+/* .maindiv{
     display: flex;
 }
 
@@ -98,7 +98,7 @@ body{
 .box-2 p{
     font-size: 25px;
     margin: 0;
-}
+} */
 
 
 
