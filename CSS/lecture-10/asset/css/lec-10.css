@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+}
+
+    /* Css 2D Transform - Examples */
+
+/* .maindiv{
+    margin: 10PX;
+    background-color:gray;
+    padding: 10px;
+    border: 1px solid black;
+    width: 1000px; 
+
+}
+.transform{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    
+}     */
+ /* .maindiv:hover .transform{
+    transform: translate(900px);
+    transform: translatey(500px);
+    transform: translatex(500px);   
+    transform: scale(5); 
+    transform: scaley(7);
+    transform: scalex(7);  
+    transform:rotate(-180deg);   
+    transform: skew(360deg ,360deg);
+    transform: skewX(-180deg);
+    transform: skewY(360deg);
+    transition: 1s;  
+}  */
+
+/* .cover{
+    border: 2px solid green;
+    height: 450px;
+    width: 450px;
+    margin: 200px 300px;
+    
+}
+.content{
+    height: 450px;
+    width: 450px;
+    background-color: red;
+}
+.cover:hover .content{
+    transform: perspective(600px) rotate3d(240 , 240 , 240 , 241deg);
+    transition: 4s;
+} */
+
+.maindiv{
+    margin: 10px;
+    background-color: gray;
+    border: 2px solid black;
+    padding: 10px;
+
+}
+
+.transform{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+}
+/* .transform:hover{
+    transform: scale(5);
+    transform: skewX(200deg);
+    transform: translate(900px);
+     transition-duration: 8s;
+     transition-property: none;
+     transition-delay: 0ms; 
+     transition-timing-function: ease; 
+     transition-timing-function: linear; 
+     transition-timing-function: ease-in; 
+     transition-timing-function: ease-in; 
+     transition-timing-function: ease-out; 
+     transition-timing-function: ease-in-out; 
+
+
+} */
+
+/* Css Filter */
+
+ /* filter:blur(1px); */
+    /* filter:brightness(50%); */
+    /* filter:contrast(100%); */
+    /* filter:grayscale(100%); */
+    /* filter:hue-rotate(360deg); */
+    /* filter:invert(0%); */
+    /* filter:saturate(0%); */
+    /* filter:opacity(1); */
+    /* filter: sepia(1); */
+    /* filter:none; */
+    /* filter:drop-shadow(10px -20px 1px rgb(70, 15, 62))*/
+
+    /* Css Filter / backdrop-filter - Exampels */
+
+
+/* .filter-image{
+    filter: blur(1px);
+    filter: brightness(80%);
+    filter: contrast(5000%);
+    filter: grayscale(100%);
+    filter: hue-rotate(80deg);
+    filter: invert(10%);
+    filter: saturate(10%);
+    filter: sepia(0.5);
+    filter: opacity(1);
+     filter: none;
+     filter: drop-shadow(10px 10px 1px black);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../image/filter.jpg');
+}
+
+.back-drop{
+    height: 200px;
+    width: 200px;
+    backdrop-filter:sepia(100%);
+} */
+
+          /* --Css Animation-- */
+
+.ani-div{
+    background-color: blue;
+    margin: 100px; 
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+}
+
+.ani-div:hover{
+    animation-duration: 3s; 
+    animation-name: rotate; 
+    /* animation-delay: 1s;  */
+    animation-iteration-count: 2; 
+    animation-timing-function: steps(5); 
+    /* animation-direction: normal; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-fill-mode: backwards;
+    animation-fill-mode: forwards;
+    animation-fill-mode: both; */
+    /* animation-timing-function: linear;
+    animation-timing-function: ease;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in-out;     */
+    
+
+}
+
+
+ @keyframes rotate{
+    from{
+        transform: translate(0px);
+    }
+    to{
+        transform: translate(900px);
+    }
+}
+
