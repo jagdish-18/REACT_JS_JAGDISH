@@ -1,0 +1,6 @@
+.col-12,.col-6,.col-4,.col-3,.col-2,.col{
+    background-color: blue;
+    padding: 5px;
+    border: 6px solid white;
+    height: 50px;
+}

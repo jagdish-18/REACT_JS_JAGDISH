@@ -130,19 +130,21 @@ body{
 .ani-div{
     background-color: blue;
     margin: 100px; 
-    height: 100px;
-    width: 100px;
+    height: 500px;
+    width: 500px;
     font-size: 20px;
     color: white;
     display: flex;
 }
 
+
+
 .ani-div:hover{
-    animation-duration: 3s; 
+    animation-duration: 10s; 
     animation-name: rotate; 
     /* animation-delay: 1s;  */
-    animation-iteration-count: 2; 
-    animation-timing-function: steps(5); 
+    animation-iteration-count: infinite; 
+    /* animation-timing-function: steps(5);  */
     /* animation-direction: normal; */
     /* animation-direction: alternate-reverse; */
     /* animation-fill-mode: backwards;
@@ -155,14 +157,44 @@ body{
     
 
 }
+.box-1{
+    height: 50px;
+    width: 50px;
+    background-color: ghostwhite;
+    border: 2px solid black;
+}
 
 
- @keyframes rotate{
+ /* @keyframes rotate{
     from{
         transform: translate(0px);
     }
     to{
         transform: translate(900px);
+    }
+} */
+
+@keyframes rotate{
+    0%{
+        background-color: green;
+        justify-content: space-between;
+    }
+    40%{
+        background-color: pink;
+        /* justify-content: space-around; */
+        transform: translate(100px);
+    }
+    80%{
+        background-color: purple;
+        justify-content: space-evenly;
+    }
+    90%{
+        background-color: aqua;
+        align-items: center;
+    }
+    100%{
+        background-color: chartreuse;
+        transform: scale(2);
     }
 }
 

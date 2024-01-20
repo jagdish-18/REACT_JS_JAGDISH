@@ -1,0 +1,13 @@
+/* .col{
+    border:1px solid black
+} */
+
+.col{
+    width: auto;
+}
+.col-6{
+    width: 50%;
+}
+.col-12{
+    width: 100%;
+}
