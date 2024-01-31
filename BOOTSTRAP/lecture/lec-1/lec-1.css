@@ -2,7 +2,7 @@
     border:1px solid black
 } */
 
-.col{
+/* .col{
     width: auto;
 }
 .col-6{
@@ -10,4 +10,49 @@
 }
 .col-12{
     width: 100%;
+} */
+
+/* .col{
+    border: 1px solid black;
+    background-color: chartreuse;
+    height: 50px;
 }
+p{
+    font-size: 18px;
+} */
+
+.row{
+    padding-top: 20px;
+    background-color: gray;
+}
+.col-4{
+    border:2px solid white;
+    /* height: 50px; */
+    background-color: red;
+    color: white;
+    padding: 6px;
+    font-size: 18px;
+} 
+.col-9{
+    border:2px solid white;
+    height: 50px;
+    background-color: red;
+    color: white;
+    padding: 6px;
+    font-size: 18px;
+} 
+.col-6{
+    border:2px solid white;
+    /* height: 50px; */
+    background-color: red;
+    color: white;
+    padding: 6px;
+    font-size: 18px;
+}
+.col-12{
+    border: 2px solid white;
+}
+.w-100{
+    border: 2px solid white;
+}
+
