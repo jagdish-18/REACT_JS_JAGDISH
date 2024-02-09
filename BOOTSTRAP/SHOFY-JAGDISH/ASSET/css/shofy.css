@@ -242,10 +242,13 @@ header{
 .special-product{
     background-color:#f6f7f9;
     height: 100%;
-   
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .special-img{
-    object-fit: cover;
+   
 }
 .trending-section{
     background-color: #e5e9f2;
@@ -262,6 +265,3 @@ header{
 .category-p img{
     padding-left: 170px;
 } 
-.category-text{
-    /* padding-left: 170px;  */
-}              
