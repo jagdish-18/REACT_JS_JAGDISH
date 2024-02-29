@@ -1,0 +1,38 @@
+.main-box{
+    background-color: tomato;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.white-box {
+    background-color: white;
+    height: 171px;
+    width: 171px;
+    margin-top: 150px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yellow {
+    background-color: yellow;
+    height: 130px;
+    width: 130px;
+    transform: rotate(35deg);
+    position: absolute;
+    right: 116px;
+    bottom: 287px;
+}
+.skaye {
+    background-color: skyblue;
+    height: 100px;
+    width: 100px;
+    transform: rotate(42deg);
+    position: absolute;
+    left: 110px;
+    bottom: 282px;
+}

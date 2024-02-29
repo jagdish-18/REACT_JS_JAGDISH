@@ -1,0 +1,15 @@
+$w-5:500px; 
+$h-5:500px;
+$green:purple;
+
+
+body{
+    background-color: red;
+   
+}
+
+ .box{
+    height: $h-5;
+    width: $w-5;
+    background-color: $green;
+ }

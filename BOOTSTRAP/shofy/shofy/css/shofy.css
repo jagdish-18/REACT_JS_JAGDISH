@@ -3,15 +3,88 @@
 
 a{
     text-decoration: none;
+  }
+  
+
+  .section-1{
+    margin-left: -160px;
+  }
+  .home{
+    height: 180px;
+    width: 850PX;
+    /* margin-left: -140px; */
+   
+  }
+  .home img{
+    height: 130px;
+    width: 130px;
+  }
+
+  .section-2 {
+    font-size: 14px;
+    height: 330px;
+    width: 1000px;
+    margin-left: -300px;
+  }
+  
+  .dropimg img{
+    height:300px;
+    width: 200px;
+    margin-left: 20px;
+  }
+
+  .section-3{
+    margin-left: -300px;
+  }
+  .pro{
+    font-size: 18px;
+    font-weight: 600;
+  }
+.section-4{
+    font-size: 13px;
 }
-header{
-    background-image: url(../image/banner.jpeg);
-    height: 100vh;
-    background-size: cover;
+ul ul ul {
+    list-style-type:none;
 }
-.border-bottom{
-    border-color:rgba(162, 162, 162, 0.443) !important;
+.carousel-caption {
+    left: 38px;
+    bottom:7px;
 }
+.slider-content span{
+    font-size: 30px;
+    font-weight: 400;
+    /* font-family:; */
+    color: #ffffff;
+    left: 0;
+}
+.beauty-title{
+    font-size: 95px;
+    font-weight: 400;
+    margin-bottom: 22px;
+    color:#ffffff;
+
+}
+.slider-items{
+    padding-right: 45px;
+}
+.slider-title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #ffffff;
+}
+.border-end{
+    border-right: 2px solid #D9DBDE;
+    margin-right: 28px;
+}
+.border{
+    border: 2px solid #D9DBDE;
+}
+.slider-btn a:hover{
+    color:white !important;
+    background-color:black; 
+}
+
 
           /* Product Collection start */
         
@@ -373,22 +446,9 @@ header{
     display: inline-block;
     color: #55585b;
 }
-.talk h4 a{
+.talk h4 {
     font-weight: 400;
     font-size: 22px;
-    color: inherit;
-}
-.gmail-icon span i{
-    height: 18px;
-    width: 16px;
-}
-.co-icon{
-    padding-right: 10px;
-}
-.gmail-name p{
-    font-size: 16px;
-    color: #55585b;
-    line-height: 20px;
 }
 
 

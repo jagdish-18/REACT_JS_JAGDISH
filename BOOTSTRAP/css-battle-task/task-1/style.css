@@ -1,0 +1,9 @@
+.line{
+    height: 30px;
+    width: 50px;
+    background-color: white;
+}
+.main-contain{
+    background-color: blue;
+    height: 607px;
+}
