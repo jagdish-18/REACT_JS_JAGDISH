@@ -49,21 +49,5 @@
     // }
 }
 
-// Call() method
 
-const person1 = {
-    Fname:"jaggi",
-    Lname:"shiyal",
-    FullName:function (hometown ,country){
-        return this.Fname +  " "  + this.Lname + " " +hometown + " " +country
-    }
-}
-
-const person2 = {
-    Fname:"suru",
-    Lname:"gohil",
-    
-}
-
-console.log(person1.FullName.call(person2,"surat" , "india"));
 

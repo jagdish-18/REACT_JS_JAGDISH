@@ -1,0 +1,238 @@
+@media (max-width:1200px) {
+    .solution-text {
+        padding-right: 70px;
+    }
+    .diffrent{
+        margin-bottom: 0;
+    }
+
+    .df-head h1 {
+        font-size: 38px;
+        font-weight: 500;
+        max-width: 470px;
+
+    }
+    .liotext li {
+        font-size: 16px;
+    }
+    .liotext ul{
+        padding: 10px 0 0 0 ;
+    }
+    .liotext ul li span{
+        padding: 0px 7px;
+    }
+    .spending-text h3{
+        max-width: 450PX;
+        line-height: 25px;
+        font-size: 17px;
+    }
+    .clients-img img{
+        width: 565px;
+        height: 450px;
+    }
+    .spending-text {
+        margin: 0px 0px 19px 0px;
+    }
+    .creative-text{
+        margin-top: 0;
+        
+    }
+    .creative-iteam ul li{
+        padding: 0px 7px;
+        line-height: 31px;
+    }
+    .our-text p{
+        font-size: 17px;
+        line-height: 30px;
+        padding-right: 40px;
+    }
+}
+@media (max-width:992px) {
+    .solution-text p{
+        padding-right: 75px;
+        line-height: 30px;
+    }
+    .solution-text h2{
+        width: 500px;
+    }
+    .sf-text h2{
+        padding-right: 15px;
+    }
+    .perfect-img img{
+        width: 440px;
+    }
+    .perfect-text{
+        margin-top: -98px;
+    }
+    .control-heading h2{
+        padding-right: 56px;
+    }
+    .perfect-text p{
+        width: 350px;
+    }
+    .list-iteam li{
+        font-size: 17px;
+
+    }
+    .list-iteam{
+        display: block;
+        padding: 0 ;
+    }
+    .df-head H1{
+        width: 450PX;
+    }
+    .clients-img img{
+        width:475px;
+    }
+    .spending-text h3{
+        width:370px;
+        line-height: 30px;
+    }
+    .title h2{
+        width: 260px;
+        font-size: 33px;
+    }
+    .bring-text p{
+        width: 292px;
+        padding-top: 15px;
+        line-height: 31px;
+    }
+    .project-box{
+        width: 640px;
+    }
+    .pro-text img{
+        width: 40px;
+    }
+    .pro-text h3{
+        font-size: 40px;
+    }
+    .pro-text h4{
+        font-size: 17px;
+    }
+    .bring-text-2{
+        flex-wrap: wrap;
+    }
+    .coriss-box {
+        width: 450px;
+        padding: 32px 44px;
+        margin: 18px 18px;
+    }
+    .coriss-box p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .case-section{
+        margin-top: 500px;
+    }
+    .studies-head h1{
+        font-size: 34px;
+        padding: 0px 81px;
+    }
+    .img-sec-1 img{
+        width: 500px;
+        height: auto;
+    }
+    .img-sec-2 img{
+        width: 500px;
+        height: auto;
+    }
+    .img-sec-3{
+        display: none;
+    }
+    .creative-iteam{
+        display: block;
+        padding: 0px 0px;
+    }
+    .creative-iteam ul li{
+          font-size: 17px;
+    }
+    .creative-img-1 img{
+        width: 230px;
+        height: auto;
+    }
+    .creative-img-2 img{
+        width: 250px;
+        height: auto;
+    }
+    .creative-img-3 img{
+        width: 400px;
+        height: auto;
+    }
+    .creative-text{
+        padding-left: 43px;
+    }
+
+    .contact-img img{
+        width: 470px;
+        height: inherit;
+    }
+    .contact-head h2{
+        padding-right: 60px;
+    }
+    .join-head h2 {
+        padding: 10px 105px;
+    }
+    .futures-text{
+        /* flex-wrap: wrap; */
+        /* display: block; */
+    }
+    .perfect-section{
+        display: block;
+    }
+    .perfect-img img {
+        width: 685px;
+        height: auto;
+    }
+    .control-heading h1{
+        line-height: 48px;
+    }
+    .control-heading h2{
+        line-height: 48px;
+        font-size: 32px;
+    }
+    .perfect-text p {
+        width: 637px;
+    }
+    .diffrent {
+        display: block;
+    }
+}
+
+
+@media (max-width:768px) {
+     .solution-main {
+        display: block;
+        text-align: center;
+    } 
+    .banner{
+        height: 900px;
+        width: 100%;
+        padding-top: 100px;
+    }
+    .solution-image {
+        margin-top:80px;
+        margin-right: 110px;
+
+    }
+    .solution-text {
+        padding-right: 0;
+        text-align: center;
+        max-width: 100%;
+    }
+    .solution-text h2{
+     width: 100%;
+     font-size: 36px;
+     line-height: 44px;   
+    }
+    .solution-text p {
+        padding-right: 0;
+        line-height: 37px;
+        font-size: 26px;
+    }
+
+}
+
+
+@media (max-width:576px) {
+    
+}

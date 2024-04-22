@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.maindiv{
+    display: flex;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    right: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0.8;
+    
+}
+/* img{
+    position: absolute;
+    object-fit: cover;
+    object-position: right;
+    
+} */
+/* span{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    position: absolute;
+}  */
+.text{
+    height:500px;
+    width: 500px;
+    position: absolute;
+    color:white;
+    margin: auto;
+    inset: 0 0 0 0;
+    text-align: center;
+    /* background-color: green; */
+ 
+}
+.maindiv:hover text{
+    
+}

@@ -1,11 +1,11 @@
 .maindiv {
-  width: 1237px;
+  width: 1222px;
   margin: 0px 40px;
+  text-align: center;
 }
 
 .help-text {
-  text-align: center;
-  margin: 10px 270px;
+  margin: 0px 233px;
 }
 
 .help-text h1 {
@@ -25,6 +25,7 @@
 
 .box {
   margin-left: 30px;
+  margin-top: 40px;
   height: 250px;
   width: 250px;
   border: 1px solid gray;
@@ -48,10 +49,10 @@
 .box-text p {
   font-size: 14px;
   margin: 20px 40px;
+  color: rgb(138, 138, 200);
 }
 
 .contact a {
   font-size: 14px;
-  margin-left: 70px;
   color: rgba(0, 0, 255, 0.606);
 }/*# sourceMappingURL=main.css.map */

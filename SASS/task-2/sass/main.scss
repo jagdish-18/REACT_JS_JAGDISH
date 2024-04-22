@@ -1,0 +1,58 @@
+@import "variables";
+
+.maindiv{
+    width:$w-maidiv;
+    margin:$mr-maindiv;
+    
+}
+.title{
+    text-align:$t-align;
+    line-height:$line-h-title;
+}
+.title h1{
+    font-size:$f-title-h1;
+    font-weight:$f-weight;
+    
+}
+.title p{
+    font-size: $f-title-p;
+    color:$color-ti-p;
+}
+.main-card{
+    display:$d-flex;
+}
+.card{
+    width:$w-card;
+    margin-top:$mr-top-card;
+    border:$card-border;
+    margin-right:$mr-right-card;
+}
+.card-image img{
+    width:$w-card;
+    border-radius:$border-redi;
+}
+.main-text{
+    background-color:$bg-whwite;
+    font-family:$f-family;
+    margin-left:$mr-l-main-t;
+}
+.loan-title h3{
+    font-size: $f-title-p;
+    font-weight:$f-weight;
+    margin-top:$mr-top;
+}
+.admin-text h5 {
+    font-size:$f-ad-h5;
+    color:$ad-text-color;
+    margin-top: $mr-t-adtext-h5;
+}
+.admin-text p {
+    font-size:$f-ad-p;
+    line-height:$line-h-ad-p;
+    color:$ad-text-color;
+    margin-top:$mr-t-adtext-p;
+}
+.link a{
+    font-size:$f-ad-h5;
+    color: $color-blue;
+}

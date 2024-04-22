@@ -1,53 +1,60 @@
 @import "variables";
 
+// task-1-start
 .maindiv {
-    width: 1237px;
-    margin: 0px 40px;
+    width: $w-maindiv;
+    margin: $margin-main;
+    text-align:$text-center;
 }
 .help-text{
-    text-align: center;
-    margin: 10px 270px;
+    margin:$mr-h-text;
 }
-.help-text h1{
+.help-text h1 {
     font-size: $fh1;
-    font-weight:bold;
+    font-weight: $fweight;
 }
-.help-text p{
-    font-size:$fp;
-    color:$fp-color;
+
+.help-text p {
+    font-size: $fp;
+    color: $fp-color;
 }
-.main-box{
-    display: flex;
-    margin-left: 170px;
-    
+
+.main-box {
+    display: $d-flex;
+    margin-left: $mr-l-main-b;
 }
+
 .box {
-    margin-left:30px;
-    height: 250px;
-    width: 250px;
-    border: 1px solid gray;
-    box-shadow: 2px 2px 4px gray;
+    margin-left: $mr-l-box;
+    margin-top: $mr-t-box;
+    height: $h-box;
+    width: $w-box;
+    border: $border;
+    box-shadow: $shadow;
 }
-.logo{
-    text-align: center;
-    margin-top: 20px;
+
+.logo {
+    text-align: $text-center;
+    margin-top: $mr-t-logo;
 }
-.logo span i{
-    font-size: 50px;
+
+.logo span i {
+    font-size: $flogo;
 }
-.logo h4{
-    font-size: 22px;
-    font-weight: bold;
+
+.logo h4 {
+    font-size: $fh4;
+    font-weight: $fweight
 }
+
 .box-text p {
-    font-size: 14px;
-    margin: 20px 40px;
-}
-.contact a{
-    font-size: 14px;
-    margin-left: 70px;
-    color: rgba(0, 0, 255, 0.606);
+    font-size: $fp-box;
+    margin: $mr-box-t-p;
+    color: $fp-color ;
 }
 
-
+.contact a {
+    font-size: $fp-box;
+    color: $color-a;
+}
 
