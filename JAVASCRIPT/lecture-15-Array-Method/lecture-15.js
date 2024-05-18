@@ -9,7 +9,7 @@
 
     // console.log(forarray);
 
-    // let maparray = array.map((any) => any +any)
+    // let maparray = array.map((any) => any + any)
 
     // console.log(maparray);
 

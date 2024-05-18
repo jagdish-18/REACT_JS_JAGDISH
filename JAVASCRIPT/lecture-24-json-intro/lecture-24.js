@@ -18,12 +18,12 @@
 
 // parse
 
-let objectData = '{"Id":2,"FirstName":"Jigs","LastName":"Gohil","City":"Bhavnagar","Age":25}'
+// let objectData = '{"Id":2,"FirstName":"Jigs","LastName":"Gohil","City":"Bhavnagar","Age":25}'
 
-let object = JSON.parse(objectData);
+// let object = JSON.parse(objectData);
 
-console.log(object);
+// console.log(object);
 
-console.log(obj);
+// console.log(obj);
 
 

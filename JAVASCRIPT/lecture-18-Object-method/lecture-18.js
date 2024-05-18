@@ -37,11 +37,11 @@
 
 // const num = {key1:11 , key2:22 , key3:33 , key4:44}
 
-// const Assign = Object.assign(obj1 , num)
+// const Assign = Object.assign(num , obj1)
 
 // console.log(Assign);
 
-// console.log(obj1);
+// console.log(num);
 
 // console.log(Assign === obj1);
 
@@ -59,11 +59,11 @@
 
     const Newobj = Object.create(obj1)
 
-    Newobj.key4 = "lope";
-    Newobj.key5 = "red&white"
+    // Newobj.key4 = "lope";
+    // Newobj.key5 = "red&white"
 
-    console.log(obj1);
-    console.log(Newobj);
-    console.log(obj1.key3());
-    console.log(obj1.key1);
+    // console.log(obj1);
+    // console.log(Newobj);
+    // console.log(obj1.key3());
+    // console.log(obj1.key1);
 }

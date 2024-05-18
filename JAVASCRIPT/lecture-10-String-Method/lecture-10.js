@@ -22,11 +22,11 @@
 {
     // let str = "this is code undefiend code code";
 
-    // let newstr = str.charAt(31);
+    // let newstr = str.charAt(30);
 
     // console.log(newstr);
 
-    // let str1 = str.charAt(25);
+    // let str1 = str.charAt(3);
     // console.log(str1);
     
 }
@@ -35,6 +35,7 @@
 
 {
     // let str = "this is code undefiend code code";
+    // let str = "jaggi"
 
     // let lenstr = str.length
 
@@ -114,6 +115,7 @@
 // 5 String split method
 {
     // let str = "this is mornig upon us";
+    // let str = "jaggi"
 
     // let str1 = str.split('');
     // console.log(str1);
@@ -137,18 +139,18 @@
 // 6 javascript trim() ,trimstart() , trimend() method
 
 {
-    // let str = "             this is javascript string method        ";
+    let str = "             this is javascript string method        ";
 
-    // console.log(str);
+    console.log(str);
 
-    // let trimstr = str.trim();
-    // console.log(trimstr);
+    let trimstr = str.trim();
+    console.log(trimstr);
 
-    // let trimstr1 = str.trimStart();
-    // console.log(trimstr1);
+    let trimstr1 = str.trimStart();
+    console.log(trimstr1);
 
-    // let trimstr2 = str.trimEnd();
-    // console.log(trimstr2);
+    let trimstr2 = str.trimEnd();
+    console.log(trimstr2);
 }
 
 // 7 string slice and substring method
@@ -156,11 +158,11 @@
 {
     let str = "i love javascript and paython";
 
-    // let slicestr = str.slice(10);
-    // console.log(slicestr);
+    let slicestr = str.slice(10);
+    console.log(slicestr);
 
-    // let substr = str.substring(10);
-    // console.log(substr);
+    let substr = str.substring(10);
+    console.log(substr);
 
     // let slicestr1 = str.slice(-7);
     // console.log(slicestr1);
@@ -168,27 +170,27 @@
     // let substr1 = str.substring(-5); 
     // console.log(substr1);
 
-    let slicestr2 = str.slice(5 , 8);
-    console.log(slicestr2);
+    // let slicestr2 = str.slice(5 , 8);
+    // console.log(slicestr2);
 
-    let substr2 = str.substring(5 , 35);
-    console.log(substr2);
+    // let substr2 = str.substring(5 , 35);
+    // console.log(substr2);
 
-    let slicestr3 = str.slice(10 , 5); // empty string
-    console.log(slicestr3);
+    // let slicestr3 = str.slice(10 , 5); // empty string
+    // console.log(slicestr3);
 
-    let substr3 = str.substring(12 ,5);
-    console.log(substr3);
+    // let substr3 = str.substring(12 ,5);
+    // console.log(substr3);
 
-    let slicestr4 = str.slice(-5 ,10); // empty strring
-    console.log(slicestr4);
+    // let slicestr4 = str.slice(-5 ,10); // empty strring
+    // console.log(slicestr4);
 
-    let substr4 = str.substring(-5 ,18);
-    console.log(substr4);
+    // let substr4 = str.substring(-5 ,18);
+    // console.log(substr4);
 
-    let slicestr5 = str.slice(-5 , -10); // empty string
-    console.log(slicestr5);
+    // let slicestr5 = str.slice(-5 , -10); // empty string
+    // console.log(slicestr5);
 
-    let substr5 = str.substring(-5 ,-5); // empty string
-    console.log(substr5);
+    // let substr5 = str.substring(-5 ,-5); // empty string
+    // console.log(substr5);
 }

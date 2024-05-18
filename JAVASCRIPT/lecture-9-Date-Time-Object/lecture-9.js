@@ -37,13 +37,13 @@
 
 // console.log(moonlanding.setMilliseconds());
 
-let newDate = new Date()
+// let newDate = new Date()
 
-console.log();
+// console.log();
 
-newDate.setFullYear(2000)
+// newDate.setFullYear(2000)
 
-console.log(newDate);
+// console.log(newDate);
 
 // console.log(Year);
 

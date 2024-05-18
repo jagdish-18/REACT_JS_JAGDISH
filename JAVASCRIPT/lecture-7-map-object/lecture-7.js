@@ -43,7 +43,7 @@
 
 // New map
 
-// let Mapobject = new Map([['option1' , 1], ['option2' , 2], ['option3' , 3] , ['option4' , {}]]);
+let Mapobject = new Map([['option1' , 1], ['option2' , 2], ['option3' , 3] , ['option4' , {}]]);
 
 // let Mapobject = new Map();
 
@@ -51,21 +51,21 @@
 
 // set method
 
-// Mapobject.set("lastName", "joe");
-// Mapobject.set("Age", "69");
+Mapobject.set("lastName", "joe");
+Mapobject.set("Age", "69");
 // Mapobject.set("firstName", "jaggi");
-// console.log(Mapobject);
+console.log(Mapobject);
 
 // Size method
 
-// console.log(Mapobject.size);
+console.log(Mapobject.size);
 
 // Delete method
 
-//  let MapData1 = Mapobject.delete("Age");
-//  console.log(MapData1);
+ let MapData1 = Mapobject.delete("Age");
+ console.log(MapData1);
 
-// console.log(Mapobject);
+console.log(Mapobject);
 
 //  let MapData2 = Mapobject.delete("firstName");
 //  console.log(MapData2);
@@ -74,14 +74,14 @@
 
 // has method
 
-// let MapData3 = Mapobject.has("option1");
-// console.log(MapData3);
+let MapData3 = Mapobject.has("option1");
+console.log(MapData3);
 
 // key method
 
-// let MapData4 = Mapobject.keys();
-// console.log(MapData4);
-// console.log(MapData4.next().value);
+let MapData4 = Mapobject.keys();
+console.log(MapData4);
+console.log(MapData4.next().value);
 // console.log(MapData4.next().value);
 // console.log(MapData4.next().value);
 // console.log(MapData4.next().value);
@@ -192,15 +192,15 @@
 
 // entries method
 
-let NewSet = new Set(["mango" , "orange" , "banana" , "apple" , "kiwi"])
+// let NewSet = new Set(["mango" , "orange" , "banana" , "apple" , "kiwi"])
 
-let SetData7 = NewSet.entries();
+// let SetData7 = NewSet.entries();
 
-console.log(NewSet);
-console.log(SetData7.next().value);
-console.log(SetData7.next().value);
-console.log(SetData7.next().value);
-console.log(SetData7.next().value);
-console.log(SetData7.next().value);
-console.log(SetData7.next().value);
+// console.log(NewSet);
+// console.log(SetData7.next().value);
+// console.log(SetData7.next().value);
+// console.log(SetData7.next().value);
+// console.log(SetData7.next().value);
+// console.log(SetData7.next().value);
+// console.log(SetData7.next().value);
 

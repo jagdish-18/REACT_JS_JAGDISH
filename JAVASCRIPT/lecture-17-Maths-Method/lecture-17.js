@@ -11,14 +11,14 @@
 // meths method
 
 {
-    // let malogths1 = Math
-    // console.(maths1);
+    let maths1 = Math
+    console.log(maths1);
 
-//     let maths2 = Math.PI // 3.14
-//     console.log(maths2);
+    // let maths2 = Math.PI // 3.14
+    // console.log(maths2);
 
-//     let maths3 = Math.floor(10.4); // 10
-//     console.log(maths3);
+    let maths3 = Math.floor(10.4); // 10
+    console.log(maths3);
 
 //     let maths4 = Math.ceil(10.5);  // 11
 //     console.log(maths4);
@@ -75,35 +75,35 @@
     // let maths20 = Math.trunc(25.23);  // 25
     // console.log(maths20);
 
-   let maths21 = Math.pow(3 , 3); // 27  
-   console.log(maths21);
+//    let maths21 = Math.pow(3 , 3); // 27  
+//    console.log(maths21);
 
-   function pow(a,b){
-    return(console.log(Math.pow(a,b)))
+//    function pow(a,b){
+//     return(console.log(Math.pow(a,b)))
    }
 
-   pow(5 ,2); // 25
-   pow(6 ,3); // 216
+//    pow(5 ,2); // 25
+//    pow(6 ,3); // 216
 
-   let maths22 = Math.sign(1) // 1
-   console.log(maths22);
+//    let maths22 = Math.sign(1) // 1
+//    console.log(maths22);
 
-   let maths23 = Math.sin(0); // 0
-   console.log(maths23);
+//    let maths23 = Math.sin(0); // 0
+//    console.log(maths23);
 
-   let maths24 = Math.sin(1); // 0.841470
-   console.log(maths24);
+//    let maths24 = Math.sin(1); // 0.841470
+//    console.log(maths24);
 
-   let maths25 = Math.sign(0); // 0
-   console.log(maths25);
+//    let maths25 = Math.sign(0); // 0
+//    console.log(maths25);
 
-   let maths26 = Math.round(25.40); // 25
-   console.log(maths26);
+//    let maths26 = Math.round(25.40); // 25
+//    console.log(maths26);
 
-   let maths27 = Math.round(25.50); // 26
-   console.log(maths27);
+//    let maths27 = Math.round(25.50); // 26
+//    console.log(maths27);
 
-   let date = new Date();
-   console.log(date);
+//    let date = new Date();
+//    console.log(date);
 
-}
+// }

@@ -69,14 +69,24 @@
 
 // Conter
 
-let count = 0 
+// let count = 0 
 
-let interval = setInterval(function(){
-    count+=1;
+// let interval = setInterval(function(){
+//     count+=1;
 
-    if(count == 5){
-        clearInterval(interval)
-    }
-    console.log(count);
+//     if(count == 5){
+//         clearInterval(interval)
+//     }
+//     console.log(count);
     
-} ,5000)
+// } ,5000)
+
+function printime(){
+    let datetime = new Date()
+
+    let time = datetime.toLocaleTimeString()
+
+    console.log(time);
+}
+
+setTimeout(printime , 2000)

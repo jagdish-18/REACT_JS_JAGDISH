@@ -2,11 +2,12 @@
 
 // Number method
 {
-    // let x = "10";
-    // let y = Number(x)
+    let x = "10";
+    let y = Number(x)
+    console.log(y);
     
-    // let b = "36";
-    // let c = Number(b);
+    let b = "36";
+    let c = Number(b);
     
     // console.log(x + 10 + 10 );
     // console.log(typeof(x));
@@ -25,6 +26,14 @@
 }
 
 // javascriprt parseFloat() and parseInt() method
+{
+    // let x = "20.23"
+    // let y = parseFloat(x)
+    // let z = parseInt(x)
+    // console.log(y);
+    // console.log(z);
+
+}
 
 // toPrecision
 {
@@ -54,7 +63,7 @@
     // let b = a.toExponential();
     // let c = a.toExponential(2);
 
-    // console.log(a);
+    // console.log(b);
     // console.log(c);
 }
 
@@ -63,13 +72,13 @@
 // let a ="shiyal jaggi";
 
 {
-// let a = 69;
-// let b = isFinite(a);
-// let c = Number.isFinite(a);
+let a = 69;
+let b = isFinite(a);
+let c = Number.isFinite(a);
 
-// console.log(a);
-// console.log(b);
-// console.log(c);
+console.log(a);
+console.log(b);
+console.log(c);
 }
 
 // isInteger
@@ -101,10 +110,10 @@
 // toString
 
 {
-    let x = "jaggi";
-    let y = x.toString(x);
+    // let x = "jaggi";
+    // let y = x.toString(x);
 
-    console.log(y);
-    console.log(typeof y); 
+    // console.log(y);
+    // console.log(typeof y); 
 
 }

@@ -1,0 +1,16 @@
+.content-box{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border: 10x solid black;
+}
+.border-box{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border: 10x solid: purple;
+
+}
+
